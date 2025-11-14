@@ -1,0 +1,24 @@
+# Local development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Secrets (should be managed separately, never commit)
+secrets/
+*-secret.yaml
+*-secret.yml
+.env
+.env.local
+
+# Kustomize generated files
+kustomization.yaml.orig
+
+# IDE
+*.code-workspace
+
+# Temporary files
+tmp/
+*.tmp
